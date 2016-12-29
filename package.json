@@ -1,0 +1,17 @@
+{
+  "name": "pug-for-browser",
+  "version": "1.0.0",
+  "description": "Generate pug.js for browser.",
+  "main": "index.js",
+  "scripts": {
+    "patch": "node patch.js",
+    "build": "browserify index.js -o pug.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "pug": "^2.0.0-beta6"
+  }
+}
